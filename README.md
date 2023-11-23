@@ -26,48 +26,65 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+# EasyGenerator Task
+
+
+## Prerequisites
+
+Before getting started with the project, users should have the following prerequisites in place:
+
+- Node.js and npm (Node Package Manager)
+- MongoDB
+
+## Getting Started
+
+To start using and contributing to the project, follow these steps for setting up the development environment and initial configuration.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/KarimAhmedAhmed/EasyGenerator-Task-Backend.git 
+   ```
+
+2. Install project dependencies:
+
+   ```bash
+   cd your-project
+   npm install
+   ```
+
+### Configuration
+
+Explain how to configure your project. This could include setting environment variables, configuring the database, or any other necessary configuration steps. Provide detailed instructions for these configurations in your project's documentation.
+
+### Project Structure
+
+Describe the structure of your project's codebase. Explain the purpose of major directories and files. This could include directories for routes, controllers, models, and any other significant components.
+
+### Running the Application
+
+Explain how to run your application locally for development or testing purposes. Provide any necessary commands and steps for running the application, such as:
 
 ```bash
-$ npm install
+npm start
 ```
 
-## Running the app
+### Deployment
 
-```bash
-# development
-$ npm run start
+Provide information on how to deploy your application to a production environment. This could include hosting services or platforms you recommend. Specify any additional steps or configurations required for production deployment.
 
-# watch mode
-$ npm run start:dev
+### Built With
 
-# production mode
-$ npm run start:prod
-```
+List the technologies and frameworks used in the project. You can also specify which features are still in progress.
 
-## Test
+- Nest.js
+- MongoDB
+- TypeScript
 
-```bash
-# unit tests
-$ npm run test
 
-# e2e tests
-$ npm run test:e2e
 
-# test coverage
-$ npm run test:cov
-```
 
-## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
